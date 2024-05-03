@@ -1,0 +1,69 @@
+header {
+    background: radial-gradient(#fff, #ffd6d6);
+} 
+
+.navbar { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.4em 4em;
+}
+
+.logo-img {
+    width: 10em;
+}
+
+.navbar nav ul {
+    display: flex;
+    gap: 1.8em;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    color: #5E585F;
+}
+
+.header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 10.7em;
+    padding-top: 3.5em;
+}
+
+.header-row .col-1 h1 {
+    font-size: 3.5em;
+    margin: 0.5em 0;
+    line-height: 1.3em;
+}
+
+.header-row .col-1 p {
+    color: #7F6864;
+}
+
+.header-row .col-2 {
+    width: 600px;
+}
+
+.header-row .explore-btn {
+    display: inline-block;
+    background-color: #FF613A;
+    border-radius: 18px;
+    padding: 6px 35px;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 1.7em;
+    transition: background-color 0.5s;
+}
+
+.header-row .explore-btn:hover {
+    background-color: #6b3324;
+}
+
+.cart-img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}

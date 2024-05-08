@@ -49,7 +49,7 @@ header {
     width: 600px;
 }
 
-.header-row .explore-btn {
+.btn {
     display: inline-block;
     background-color: #FF613A;
     border-radius: 18px;
@@ -59,8 +59,8 @@ header {
     margin-top: 1.7em;
     transition: background-color 0.5s;
 }
-
-.header-row .explore-btn:hover {
+ 
+.btn:hover {
     background-color: #6b3324;
 }
 

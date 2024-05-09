@@ -1,0 +1,15 @@
+.brands {
+    display: flex;
+    margin: 3.5em 18em;
+    gap: 1.5em;
+}
+
+.brands img {
+    filter: grayscale(100%);
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.brands img:hover {
+    filter: grayscale(0);
+}

@@ -1,5 +1,4 @@
 footer {
-    width: 100vw;
     background-color: black;
     display: flex;
     justify-content: center;
@@ -9,10 +8,11 @@ footer {
     display: flex;
     gap: 3em;
     padding-top: 2em;
+    justify-content: center;
 }
 
 .footer-container .fot-col {
-    flex-basis: 30%;
+    flex-basis: 15%;
 }
 
 .footer-container .fot-col:nth-child(1) {
@@ -46,7 +46,7 @@ footer {
 .footer-container .fot-col:nth-child(2) .logo-footer {
     width: 10em;
     margin: 0 auto;
-    padding-bottom: 2.5em;
+    padding-bottom: 1.4em;
     cursor: pointer;
 }
 
@@ -67,4 +67,28 @@ footer {
     text-decoration: none;
     color: #6e6c6c;
     font-size: 0.9em;
+}
+
+.footer-container .fot-col:nth-child(4) h3 {
+    color: #fff;
+    font-size: 0.95em;
+    text-align: center;
+    padding-bottom: 0.2em;
+}
+
+.footer-container .fot-col:nth-child(4) ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-container .fot-col:nth-child(4) ul li a{
+    text-decoration: none;
+    color: #6e6c6c;
+    font-size: 0.9em;
+}
+
+.footer-container .fot-col:nth-child(3) ul li a:hover,
+.footer-container .fot-col:nth-child(4) ul li a:hover{
+    text-decoration: underline;
 }

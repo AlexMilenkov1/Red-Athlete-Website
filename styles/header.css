@@ -1,5 +1,6 @@
 header {
     background: radial-gradient(#fff, #ffd6d6);
+    width: 100vw;
 } 
 
 .navbar { 
@@ -7,6 +8,12 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 1.4em 4em;
+}
+
+.navbar nav {
+    display: flex;
+    gap: 2em;
+    align-items: center;
 }
 
 .logo-img {
@@ -84,4 +91,10 @@ header {
 
 .navbar nav ul li a:hover:before {
     width: 100%;
+}
+
+.menu-img {
+    width: 28px;
+    margin-left: 1em;
+    display: none;
 }

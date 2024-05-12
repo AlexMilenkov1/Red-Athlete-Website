@@ -1,11 +1,12 @@
 .testimonials {
     display: flex;
     justify-content: space-evenly;
-    padding: 4em;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .testimonial-container {
-    flex: 0 0 22%;
+    flex: 0 1 22%;
     display: flex;
     flex-direction: column;
     align-items: center;
